@@ -40,7 +40,7 @@ $weer = ['maandag' =>11,
         }
         ?>
 </table>
-<?php $weer = "maandag"; ?>
-<p> vandaag  <?= $weer;?> is het 11 graden</p>
+<?php $vandaag = "maandag"; ?>
+<p> vandaag  <?= $vandaag;?> is het <?= $weer[$vandaag];?>graden</p>
 </body>
 </html>
