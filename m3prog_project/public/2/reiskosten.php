@@ -9,12 +9,12 @@ $tanken = 2;
 $kostenauto = 136;
 
 if($kostenauto > $prijsreis) {
-    echo "Ik ga met de trein";
+    echo "Ik ga met de trein. <br>";
 }else{
-    echo "Ik ga met de auto";
+    echo "Ik ga met de auto. <bt>";
 };
 
-echo "De totale afstand, 1081";
-echo "totale prijs,136";
-echo "het aantal liter bezine dat je verbuikt: 72";
-echo "het aantal keren dat je moet tanken: 2 keer";
+echo "De totale afstand, 1081. <br>";
+echo "totale prijs,136. <br>";
+echo "het aantal liter bezine dat je verbuikt: 72. <br>";
+echo "het aantal keren dat je moet tanken: 2 keer. <br>";
