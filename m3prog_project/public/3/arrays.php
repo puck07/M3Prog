@@ -30,10 +30,19 @@
  sort($namen);
  $namen[6] = "naam6";
  echo "<br>";
- echo $namen[6]
+ echo $namen[6];
 
- $namen_tekst = array[""]
+ $namen_tekst = implode("<br>", $namen);
+ echo $namen_tekst;
 
+        
+$namen2_tekst = explode("<br>", $namen_tekst);
+
+ print_r($namen2_tekst);
  ?>
+
+ 
+
+
 </body>
 </html>

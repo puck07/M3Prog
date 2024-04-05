@@ -6,7 +6,7 @@ $_naam	=2;
 //$huis&tuin	= 5;
 $naw = 6;	
 //$22	= 7;
-//$$auto = 8;
+//$auto = 8;
 $kleurVanAuto = 9;	
 //$software-dev = 10;	
 

@@ -41,6 +41,18 @@ $weer = ['maandag' =>11,
         ?>
 </table>
 <?php $vandaag = "maandag"; ?>
-<p> vandaag  <?= $vandaag;?> is het <?= $weer[$vandaag];?>graden</p>
+<p> vandaag <?= $vandaag; ?> is het <?= $weer[$vandaag]; ?>graden</p>
+    <?php $vandaag = "dinsdag"; ?>
+    <p> vandaag <?= $vandaag; ?> is het <?= $weer[$vandaag]; ?>graden</p>
+    <?php $vandaag = "woensdag"; ?>
+    <p> vandaag <?= $vandaag; ?> is het <?= $weer[$vandaag]; ?>graden</p>
+    <?php $vandaag = "donderdag"; ?>
+    <p> vandaag <?= $vandaag; ?> is het <?= $weer[$vandaag]; ?>graden</p>
+    <?php $vandaag = "vrijdag"; ?>
+    <p> vandaag <?= $vandaag; ?> is het <?= $weer[$vandaag]; ?>graden</p>
+    <?php $vandaag = "zaterdag"; ?>
+    <p> vandaag <?= $vandaag; ?> is het <?= $weer[$vandaag]; ?>graden</p>
+    <?php $vandaag = "zondag"; ?>
+    <p> vandaag <?= $vandaag; ?> is het <?= $weer[$vandaag]; ?>graden</p>
 </body>
 </html>
